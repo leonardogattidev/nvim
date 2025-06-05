@@ -10,6 +10,9 @@ return {
                     mason = false,
                     -- TODO: make it build from source instead of fetching prebuilt bin
                 },
+                denols = {
+                    mason = false,
+                },
                 -- clangd = {
                 --     cmd = {
                 --         "clangd",
