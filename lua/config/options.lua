@@ -3,21 +3,21 @@
 -- Add any additional options here
 
 local options = {
-    expandtab = true,
-    shiftwidth = 4,
-    smartindent = true,
-    autoindent = true,
+  expandtab = true,
+  shiftwidth = 4,
+  smartindent = true,
+  autoindent = true,
 
-    showbreak = "↳ ",
+  showbreak = "↳ ",
 
-    cursorline = true,
-    cursorcolumn = true,
+  cursorline = true,
+  cursorcolumn = true,
 
-    clipboard = "unnamedplus",
+  clipboard = "unnamedplus",
 }
 
 for key, value in pairs(options) do
-    vim.opt[key] = value
+  vim.opt[key] = value
 end
 
 vim.g.zig_fmt_autosave = 0
